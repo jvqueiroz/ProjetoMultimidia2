@@ -1,0 +1,120 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.navBar{
+  width: 100%;
+  height: 9%;
+  background: #F3F3F3;
+  padding: 5px 25px; 
+  display: flex;
+  align-items: center;
+  color: #333333;
+  /* Preto : 333333
+    Azul: 47C4E8
+  */
+}
+.iconsRS{
+  margin-left: auto;
+}
+.iconsRS img{
+  padding-left: 20px;
+}
+.areaVideo{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  background: #000000;
+}
+.video{
+  width: 90%;
+  height: 100%;
+  background: #000000;
+}
+.areaInfoVideo{
+  width: 100%;
+  height: 26%;
+  padding: 5px 69px; 
+  background: #e7e7e7;
+  display: flex;
+}
+.p{
+  padding-top: 5px;
+  color: #47C4E8;
+}
+.areatitulo{
+  width: 60%;
+}
+.p2{
+  padding-top: 8px;
+  color: #333333;
+  font-size: 14px;
+  line-height: 155%;
+}
+.p3{
+  color: #47C4E8;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.iconInfo{
+  color: #47C4E8;
+  font-size: 10px;
+  margin-right: 5px;
+}
+.titulo{
+  color: #333333;
+  font-size: 25px;
+  font-weight: 600; 
+}
+.areaLike{
+  margin-left: auto;
+  margin-top: auto;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.areaControles{
+  background: rgba(26,26,26,0.8);
+  color: white;
+  display: flex;
+  margin-top: 372px;
+  width: 90%;
+  position: absolute;
+  padding: 5px 10px;
+  align-items: center;
+}
+.iconPlay{
+  margin-right: 10px;
+}
+.barraplay{
+  width: 70%;
+  height: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: white;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-block; 
+}
+
+.barravolume{
+  width: 7%;
+  height: 3px;
+  margin-right: 10px;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  background: #8A8B8B;
+  display: inline-block;
+}
+
+.imagens{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  overflow-y:scroll;
+}
